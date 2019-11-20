@@ -1,0 +1,16 @@
+{
+  "name": "portfolio-bot",
+  "version": "1.0.0",
+  "description": "Telegram Bot for Portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bahodirov Botir",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "telegraf": "^3.33.3"
+  }
+}
