@@ -1,6 +1,9 @@
 const Telegraf  = require('telegraf');
 const Markup    = require('telegraf/markup');
+const dotenv    = require('dotenv');
 const fs        = require('fs');
+
+dotenv.config();
 
 const bot       = new Telegraf(process.env.TOKEN);
 const private   = process.env.PRIVATE_GROUP;
